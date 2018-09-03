@@ -58,6 +58,11 @@ HTTP_PROXY_CACHE_TTL=300
 
 ### Usage
 
+```php
+use Sicaboy\LaravelHttpProxy\Facades\HttpProxy;
+$proxy = HttpProxy::getProxy();
+```
+
 #### Init js source
 
 ### Testing
