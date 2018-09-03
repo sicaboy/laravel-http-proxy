@@ -1,0 +1,28 @@
+{
+    "name": "sicaboy/laravel-http-proxy",
+    "description": "A package allows HTTP proxy",
+    "keywords": ["http-proxy"],
+    "authors": [
+        {
+            "name": "David Shen",
+            "email": "slj@slj.me"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sicaboy\\LaravelHttpProxy\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sicaboy\\LaravelHttpProxy\\HttpProxyServiceProvider"
+            ],
+            "aliases": {
+                "HttpProxy": "Anhskohbo\\NoCaptcha\\Facades\\HttpProxy"
+            }
+        }
+    }
+}
