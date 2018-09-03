@@ -21,7 +21,7 @@
                 "Sicaboy\\LaravelHttpProxy\\HttpProxyServiceProvider"
             ],
             "aliases": {
-                "HttpProxy": "Anhskohbo\\NoCaptcha\\Facades\\HttpProxy"
+                "HttpProxy": "Sicaboy\\LaravelHttpProxy\\Facades\\HttpProxy"
             }
         }
     }
