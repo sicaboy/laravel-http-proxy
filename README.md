@@ -60,10 +60,12 @@ HTTP_PROXY_CACHE_TTL=300
 
 ```php
 use Sicaboy\LaravelHttpProxy\Facades\HttpProxy;
+// Get a valid proxy. e.g."12.34.56.78:8080"
 $proxy = HttpProxy::getProxy();
+// Give up the current cached proxy and get another valid proxy
+$proxy = HttpProxy::refreshProxy();
 ```
 
-#### Init js source
 
 ### Testing
 
