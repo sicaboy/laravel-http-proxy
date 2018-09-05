@@ -40,7 +40,7 @@ class HttpProxy {
         return $proxy;
     }
 
-    protected function refreshProxy() {
+    public function refreshProxy() {
         $endpoint = '/get/';
         $newProxy = file_get_contents($this->generateUrl($endpoint));
         if( $this->cacheEnabled ) {
